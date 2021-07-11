@@ -1,0 +1,16 @@
+./rnn-train.py trainfile devfile paramfile --num_epochs=20 --wordlength=10 --emb_size=50 --rnn_size1=100 --rnn_size2=100 --dropout_rate=0.1 --learning_rate=0.001
+
+1  iteration : precision  0.8550531914893617
+2  iteration : precision  0.8794978097622027
+3  iteration : precision  0.8910226324572382
+4  iteration : precision  0.8973586775135586
+5  iteration : precision  0.8999269920734251
+6  iteration : precision  0.9021302670004172
+7  iteration : precision  0.9049723612849395
+8  iteration : precision  0.9044508760951189
+9  iteration : precision  0.9042292448894451
+10  iteration : precision  0.9056502920317063 -> best Model
+
+
+
+

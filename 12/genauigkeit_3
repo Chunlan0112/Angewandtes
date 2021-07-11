@@ -1,0 +1,100 @@
+./rnn-train.py trainfile devfile paramfile --num_epochs=20 --wordlength=10 --emb_size=300 --rnn_size=200 --dropout_rate=0.3 --learning_rate=0.001
+
+1  iteration : precision  0.84627920317063
+2  iteration : precision  0.865156967042136
+3  iteration : precision  0.8752216312056738
+4  iteration : precision  0.8813360450563203
+5  iteration : precision  0.8817923445974134
+6  iteration : precision  0.8854166666666666
+7  iteration : precision  0.8872549019607843
+8  iteration : precision  0.8875417188151856
+9  iteration : precision  0.8881675010429704
+10  iteration : precision  0.8887411347517731
+11  iteration : precision  0.8901491447642887
+12  iteration : precision  0.8906836670838548
+13  iteration : precision  0.8914267834793492
+14  iteration : precision  0.8902534418022529
+15  iteration : precision  0.8919743429286608
+16  iteration : precision  0.8928739048811014 <-best Model
+17  iteration : precision  0.8918570087609512
+18  iteration : precision  0.8928739048811014
+19  iteration : precision  0.8927956821026283
+20  iteration : presicion  0.8922872340425532
+
+14466.122226715088  seconds are used
+
+./rnn-train.py trainfile devfile paramfile --num_epochs=20 --wordlength=10 --emb_size=300 --rnn_size=200 --dropout_rate=0.2 --learning_rate=0.001
+
+1  iteration : precision  0.8499817480183562
+2  iteration : precision  0.8742829578639967
+3  iteration : precision  0.8768512724238632
+4  iteration : precision  0.8865248226950354
+5  iteration : precision  0.8900318105965791
+6  iteration : precision  0.8927435335836462
+7  iteration : precision  0.892482790988736
+8  iteration : precision  0.8919873800584064
+9  iteration : precision  0.894281914893617
+10  iteration : precision  0.8935648727576136
+11  iteration : precision  0.8943340634125991
+12  iteration : precision  0.8963417813934085
+13  iteration : precision  0.8954422194409679
+14  iteration : precision  0.8961201501877347
+15  iteration : precision  0.8982191280767626
+16  iteration : precision  0.8959637046307884
+17  iteration : precision  0.8963548185231539
+18  iteration : precision  0.8979714226115978
+19  iteration : precision  0.8992881727158949 <-best Model
+20  iteration : precision  0.8975151230705048
+
+14461.467139005661  seconds are used
+
+
+./rnn-train.py trainfile devfile paramfile --num_epochs=20 --wordlength=10 --emb_size=300 --rnn_size=200 --dropout_rate=0.1 --learning_rate=0.001
+
+1  iteration : precision  0.8615587192323738
+2  iteration : precision  0.8786112849395077
+3  iteration : precision  0.8857947434292867
+4  iteration : precision  0.8927826449728827
+5  iteration : precision  0.894307989153108
+6  iteration : precision  0.8965764497288277
+7  iteration : precision  0.898962244472257
+8  iteration : precision  0.8974238631622862
+9  iteration : precision  0.9008787025448477
+10  iteration : precision  0.9014914476428869
+11  iteration : precision  0.9006570713391739
+12  iteration : precision  0.9011785565289946
+13  iteration : precision  0.8999269920734251
+14  iteration : precision  0.8974238631622862
+15  iteration : precision  0.9009438881935753
+16  iteration : precision  0.9023910095953275 <-best Model
+17  iteration : precision  0.9005397371714643
+18  iteration : precision  0.9012567793074676
+19  iteration : precision  0.9017652273675427
+20  iteration : precision  0.9011524822695035
+
+14644.071048498154  seconds are used
+
+./rnn-train.py trainfile devfile paramfile --num_epochs=20 --wordlength=10 --emb_size=300 --rnn_size=250 --dropout_rate=0.1 --learning_rate=0.001
+
+1  iteration : precision  0.8590034418022529
+2  iteration : precision  0.8756779307467668
+3  iteration : precision  0.8850125156445557
+4  iteration : precision  0.889171360033375
+5  iteration : precision  0.8931607217355028
+6  iteration : precision  0.8936300584063412
+7  iteration : precision  0.8970327492699207
+8  iteration : precision  0.898558093450146
+9  iteration : precision  0.8978801627033792
+10  iteration : precision  0.9010090738423029
+11  iteration : precision  0.8996141009595328
+12  iteration : precision  0.9024692323738006
+13  iteration : precision  0.9031862745098039 -> best Model
+14  iteration : precision  0.9027039007092199
+15  iteration : precision  0.9013480392156863
+16  iteration : precision  0.8995749895702962
+17  iteration : precision  0.90156967042136
+18  iteration : precision  0.9003963287442637
+19  iteration : precision  0.8996923237380059
+20  iteration : precision  0.9026256779307468
+
+15723.67665553093  seconds are used
